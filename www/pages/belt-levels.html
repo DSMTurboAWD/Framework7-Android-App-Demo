@@ -1,0 +1,27 @@
+<!--<template>-->
+    <div class="page" data-name="beltlevel">
+        <div class="navbar">
+            <div class="navbar-inner sliding">
+                <div class="title">Belt Level</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="list links-list">
+                <ul>
+                    {{#each kcontent}
+                    <li><a href="/belts/{{id}}/">{{bname}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--</template>-->
+<script>
+    return {
+        data: function () {
+            return {
+                kcontent: this.$root.kcontent,
+            };
+        }
+    };
+</script>

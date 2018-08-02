@@ -1,0 +1,71 @@
+{
+  "name": "framework7-template-tabs",
+  "version": "1.0.0",
+  "description": "Framework7 tabs starter app template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framework7io/framework7-template-tabs.git"
+  },
+  "scripts": {
+    "serve": "http-server ./www/ -o -c 1 -a localhost",
+    "copy-f7": "cpy node_modules/framework7/dist/js/*.* www/framework7/js && cpy node_modules/framework7/dist/css/*.* www/framework7/css && cpy node_modules/framework7-icons/fonts/*.* www/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} www/fonts",
+    "postinstall": "npm run copy-f7"
+  },
+  "keywords": [
+    "framework7",
+    "template",
+    "ios",
+    "android",
+    "mobile",
+    "app",
+    "cordova",
+    "phonegap"
+  ],
+  "author": "Vladimir Kharlampidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/framework7io/framework7-template-tabs/issues"
+  },
+  "homepage": "https://github.com/framework7io/framework7-template-tabs#readme",
+  "devDependencies": {
+    "cpy-cli": "^2.0.0",
+    "framework7": "^3.0.1",
+    "framework7-icons": "^0.9.1",
+    "http-server": "^0.11.1",
+    "material-design-icons": "^3.0.1"
+  },
+  "dependencies": {
+    "cordova-android": "^7.1.0",
+    "cordova-plugin-battery-status": "^2.0.2",
+    "cordova-plugin-camera": "^4.0.3",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-dialogs": "^2.0.1",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-geolocation": "^4.0.1",
+    "cordova-plugin-globalization": "^1.11.0",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-media-capture": "^3.0.2",
+    "cordova-plugin-network-information": "^2.0.1",
+    "cordova-plugin-streaming-media": "^2.1.2",
+    "cordova-plugin-vibration": "^3.1.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-globalization": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-vibration": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+/* Your app styles here */
+.ios .tabbar-labels .tab-link:not(.tab-link-active) .icon-ios-fill {
+  display: none;
+}
+.ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
+  display: none;
+}
+
+/* Main Styles*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.sk-belt-back {
+  background-image: url("../img/wbelt.png");
+}
+
+body {
+  font-family: 'Abril Fatface', "serif";
+
+}
+
+html {
+
+}
+
+.page-content {
+  background-color: gray;
+  /*background-image: url("../img/backgroundImgPlaceholder.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+/*.content-block {
+  color: white;
+  background: linear-gradient(359deg, lightgrey, #103b47);
+  box-shadow: 10px 10px 15px gray;
+  opacity: 1.0;
+  height: 75%;
+  padding: 5px;
+}*/
+
+.statusbar-overlay {
+  background: #000000;
+}
+
+/* Side bar buttons*/
+.sk-btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sk-btn-belt {
+  background-image: url('../img/blackBelt.png');
+  border: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.sk-round-btn {
+  border-radius: 20px;
+}
+
+.img-responsive {
+  margin: o auto;
+}
+
+.sk-title{
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 5px;
+}
+
+#btn-white-belt {
+  background-image: url("../img/wbelt.png");
+  /*background: linear-gradient(45deg, silver, snow);*/
+  box-shadow: 5px 5px 10px slategray;
+  color: #1a1a1a;
+}
+
+#btn-white-belt:hover {
+  background-image: url("../img/wbelt.png");
+  /*background: linear-gradient(45deg, silver, snow);*/
+  box-shadow: 5px 5px 10px darkgray inset;
+  color: #1a1a1a;
+}
+
+#btn-gold-belt {
+  background-image: url("../img/goldBelt.png");
+  /*background: linear-gradient(-45deg, silver, gold);*/
+  box-shadow: 5px 5px 10px #654d00;
+  color: darkslategray;
+}
+
+#btn-gold-belt:hover {
+  background-image: url("../img/goldBelt.png");
+  /*background: linear-gradient(-45deg, silver, gold);*/
+  box-shadow: 5px 5px 10px #654d00 inset;
+  color: darkslategrey;
+}
+
+#btn-green-belt {
+  background-image: url("../img/greenBelt.png");
+  /*background: linear-gradient(-45deg, slategray, forestgreen);*/
+  box-shadow: 5px 5px 10px #0b2e13;
+
+}
+
+#btn-green-belt:hover {
+  background-image: url("../img/greenBelt.png");
+  /*background: linear-gradient(-45deg, slategray, forestgreen);*/
+  box-shadow: 5px 5px 10px #0b2e13 inset;
+
+}
+
+#btn-purple-belt {
+  background-image: url("../img/purpleBelt.png");
+  /*background: linear-gradient(-45deg, slategray, purple);*/
+  box-shadow: 5px 5px 10px #33184b;
+}
+
+#btn-purple-belt:hover {
+  background-image: url("../img/purpleBelt.png");
+  /*background: linear-gradient(-45deg, slategray, purple);*/
+  box-shadow: 5px 5px 10px #33184b inset;
+}
+
+#btn-blue-belt {
+  background-image: url("../img/blueBelt.png");
+  /*background: linear-gradient(-45deg, slategray, darkblue);*/
+  box-shadow: 5px 5px 10px navy;
+}
+
+#btn-blue-belt:hover {
+  background-image: url("../img/blueBelt.png");
+  /*background: linear-gradient(-45deg, slategray, darkblue);*/
+  box-shadow: 5px 5px 10px navy inset;
+}
+
+#btn-red-belt {
+  background-image: url("../img/redBelt.png");
+  /*background: linear-gradient(-45deg, slategray, red);*/
+  box-shadow: 5px 5px 10px maroon;
+}
+
+#btn-red-belt:hover {
+  background-image: url("../img/redBelt.png");
+  /*background: linear-gradient(-45deg, slategray, red);*/
+  box-shadow: 5px 5px 10px maroon inset;
+}
+
+#btn-brown-belt {
+  background-image: url("../img/brownBelt.png");
+  /*background: linear-gradient(-45deg, slategray, saddlebrown);*/
+  box-shadow: 5px 5px 10px #4b3218;
+  color: snow;
+}
+
+#btn-brown-belt:hover {
+  background-image: url("../img/brownBelt.png");
+  /*background: linear-gradient(-45deg, slategray, saddlebrown);*/
+  box-shadow: 5px 5px 10px darkgray inset;
+  color: snow;
+}
+
+#btn-black-belt{
+  background-image: url("../img/blackBelt.png");
+  /*background: linear-gradient(-45deg, slategray, black);*/
+  box-shadow: 5px 5px 10px darkgray;
+  color: snow;
+}
+
+#btn-black-belt:hover{
+  background-image: url("../img/blackBelt.png");
+  /*background: linear-gradient(-45deg, slategray, black);*/
+  box-shadow: 5px 5px 10px darkgray inset;
+  color: snow;
+}
+
+#sk-sidebar {
+  padding: 10px;
+}
+
+
+/* Video Container to make video lock to center screen*/
+.video-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container video {
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}

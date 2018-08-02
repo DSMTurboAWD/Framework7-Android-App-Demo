@@ -1,0 +1,4 @@
+#Tue Jul 17 16:10:39 CDT 2018
+base.0=F\:\\Users\\Cole\\Dropbox\\Dad Stuff\\SterlingKarate.app\\Sterling Karate App - Branch\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
