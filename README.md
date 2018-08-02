@@ -1,4 +1,4 @@
-### Repo for CSC 410 Group 2 ###
+# Repo for CSC 410 Group 2 #
 
 This is a simply Framework 7 / Cordova based cross platform android app.
 
@@ -10,6 +10,6 @@ to progress their Martial Arts training.
 
 App is made of primarily CSS, Javascript, and some connecting technologies
 
-# To build the app #
+### To build the app ###
 
 [more info to come here]
