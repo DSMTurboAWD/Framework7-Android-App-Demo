@@ -19,6 +19,10 @@ routes = [
     path: '/settings/',
     url: './pages/settings.html',
   },
+  {
+    path: '/rules/',
+    url: './pages/rules.html',
+  },
   // Belt page loaders
   {
     path: '/beltlevel',
@@ -28,6 +32,7 @@ routes = [
     path: '/belt/:id/',
     url: '.pages/belt.html',
   },
+  /* The following pages were for levels based on belt
   {
     path: '/whitebelt/',
     url: './pages/belts/white-belt.html',
@@ -59,8 +64,8 @@ routes = [
   {
       path: '/blackbelt/',
       url: './pages/belts/black-belt.html',
-  },
-
+  },*/
+  
   // Page Loaders & Router
   {
     path: '/page-loader-template7/:user/:userId/:posts/:postId/',
