@@ -181,6 +181,14 @@ html {
   padding: 10px;
 }
 
+.block-title {
+  font-size:  16pt;
+  color: #b20000;
+}
+
+.list {
+  background-color:  #E8E8E8;
+}
 
 /* Video Container to make video lock to center screen*/
 .video-container {

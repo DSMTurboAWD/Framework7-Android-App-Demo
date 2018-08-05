@@ -23,6 +23,12 @@ routes = [
     path: '/rules/',
     url: './pages/rules.html',
   },
+  
+  {
+    path: '/my-list/',
+    url: './pages/my-list.html',
+  },
+  
   // Belt page loaders
   {
     path: '/beltlevel',
