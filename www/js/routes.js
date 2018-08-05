@@ -28,6 +28,8 @@ routes = [
     path: '/my-list/',
     url: './pages/my-list.html',
   },
+  
+  /* The following pages were for levels based on belt*/
 
     {
         path: '/beginner/',

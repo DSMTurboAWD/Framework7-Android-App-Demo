@@ -131,6 +131,22 @@ $$('.open-more-actions').on('click', function () {
     moreActions.open();
 });
 
+/* MMA Move Pop Ups */
+
+// Jab
+$$('.popup-jab').on('popup:open', function (e, popup) {console.log('jab popup open');});
+// Trip
+$$('.popup-trip').on('popup:open', function (e, popup) {console.log('trip popup open');});
+// Overhand Punch
+$$('.popup-overhand').on('popup:open', function (e, popup) {console.log('overhand popup open');});
+// Round Kick
+$$('.popup-round-kick').on('popup:open', function (e, popup) {console.log('round-kick popup open');});
+//Double Leg Takedown
+$$('.popup-double-leg-takedown').on('popup:open', function (e, popup) {console.log('double-leg-takedown popup open');});
+// Rear Naked Choke
+$$('.popup-rear-naked-choke').on('popup:open', function (e, popup) {console.log('rear-naked-choke popup open');});
+
+
 function LoadVideo(videoUrl) {
 
     // Play a video with callbacks

@@ -181,9 +181,15 @@ html {
   padding: 10px;
 }
 
+
+.icon-only {
+  margin-left: 100px;
+}
+
 .block-title {
   font-size:  16pt;
-  color: #b20000;
+  color: #b20000;    /* not working for some reason */
+  font-weight: bold; /* not working either */
 }
 
 .list {
