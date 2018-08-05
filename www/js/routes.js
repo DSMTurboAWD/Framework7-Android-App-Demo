@@ -28,8 +28,23 @@ routes = [
     path: '/my-list/',
     url: './pages/my-list.html',
   },
-  
-  // Belt page loaders
+
+    {
+        path: '/beginner/',
+        url: './pages/beginner.html',
+    },
+    {
+        path: '/intermediate/',
+        url: './pages/intermediate.html',
+    },
+    {
+        path: '/advanced/',
+        url: './pages/advanced.html',
+    },
+
+  /* The following pages were for levels based on belt
+
+   // Belt page loaders
   {
     path: '/beltlevel',
     url: './pages/belt-levels.html',
@@ -38,7 +53,7 @@ routes = [
     path: '/belt/:id/',
     url: '.pages/belt.html',
   },
-  /* The following pages were for levels based on belt
+   */
   {
     path: '/whitebelt/',
     url: './pages/belts/white-belt.html',
@@ -70,7 +85,7 @@ routes = [
   {
       path: '/blackbelt/',
       url: './pages/belts/black-belt.html',
-  },*/
+  },
   
   // Page Loaders & Router
   {
