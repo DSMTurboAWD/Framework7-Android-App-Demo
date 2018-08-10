@@ -132,7 +132,7 @@ $$('.open-more-actions').on('click', function () {
 });
 
 /* MMA Move Pop Ups */
-
+// TODO: Change the following functions to use app.popup.get(); to make the code easier to maintain
 // Jab
 $$('.popup-jab').on('popup:open', function (e, popup) {console.log('jab popup open');});
 // Trip
@@ -145,6 +145,20 @@ $$('.popup-round-kick').on('popup:open', function (e, popup) {console.log('round
 $$('.popup-double-leg-takedown').on('popup:open', function (e, popup) {console.log('double-leg-takedown popup open');});
 // Rear Naked Choke
 $$('.popup-rear-naked-choke').on('popup:open', function (e, popup) {console.log('rear-naked-choke popup open');});
+
+/* Function to compartmentalize the fancy code above so we do not have to type it out*/
+var popupElements = [
+    {
+        element: $$('.popup-jab'),
+        consoleElement: 'Jab popup open'
+    }
+    ];
+    
+DisplayPopup(function(){
+    $$.each(popupElements,function(index, popupElements){
+      if (popupElements.element.is('open'))   
+    })
+})
 
 
 function LoadVideo(videoUrl) {
