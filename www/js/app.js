@@ -153,12 +153,15 @@ var popupElements = [
         consoleElement: 'Jab popup open'
     }
     ];
-    
+
+
+/*
 DisplayPopup(function(){
     $$.each(popupElements,function(index, popupElements){
-      if (popupElements.element.is('open'))   
-    })
+        if (popupElements.element.is('open'))
+            })
 })
+*/
 
 
 function LoadVideo(videoUrl) {
