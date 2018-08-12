@@ -230,6 +230,7 @@ p {
     border-radius: 10px;
 }
 
-.login-container {
+.app-container {
   background-color: snow;
+  border-radius: 5px;
 }
