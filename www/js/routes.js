@@ -32,7 +32,16 @@ routes = [
     path: '/login/',
     url: './pages/login.html',
   },
-  
+  {
+    path: '/contact/',
+    url: './pages/contact.html',
+  },
+/*   
+  {
+    path: '/contact-message/',
+    url: './pages/contact-message.php',  
+  },
+    
   /* The following pages were for levels based on belt*/
 
     {

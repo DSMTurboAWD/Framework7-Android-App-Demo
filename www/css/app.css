@@ -234,3 +234,14 @@ p {
   background-color: snow;
   border-radius: 5px;
 }
+
+#contact-form {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+
+#contact-form .item-title {
+    font-weight: bold;
+    font-size: 12pt;
+}
