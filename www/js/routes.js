@@ -44,18 +44,15 @@ routes = [
         url: './pages/advanced.html',
     },
 
-  /* The following pages were for levels based on belt
 
    // Belt page loaders
   {
-    path: '/beltlevel',
     url: './pages/belt-levels.html',
   },
   {
     path: '/belt/:id/',
     url: '.pages/belt.html',
   },
-   */
   {
     path: '/whitebelt/',
     url: './pages/belts/white-belt.html',
@@ -154,3 +151,4 @@ routes = [
     url: './pages/404.html',
   },
 ];
+    path: '/belt-levels/',

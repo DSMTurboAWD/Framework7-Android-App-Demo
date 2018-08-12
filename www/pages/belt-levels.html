@@ -1,27 +1,122 @@
-<!--<template>-->
-    <div class="page" data-name="beltlevel">
-        <div class="navbar">
-            <div class="navbar-inner sliding">
-                <div class="title">Belt Level</div>
+<!-- My List Page -->
+<!-- list of belts -->
+<!-- Edit History:
+     8/05/18 - page created
+	8/11/18 L.G. updated to have static list of pop up of each belt.
+-->
+
+
+<div class="page" data-name="my-list">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="#" class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Back</span>
+                </a>
             </div>
+            <div class="title">Belts</div>
         </div>
-        <div class="page-content">
-            <div class="list links-list">
-                <ul>
-                    {{#each kcontent}
-                    <li><a href="/belts/{{id}}/">{{bname}}</a></li>
-                    {{/each}}
-                </ul>
-            </div>
-        </div>
+  </div>
+  
+  <div class="page-content">
+    <div class="block-title">Belts</div>
+      <div class="list links-list inset">
+        <ul>
+          <li><a class="link" href="/whitebelt/">White Belt</a></li>
+          <li><a class="link" href="/goldbelt/">Gold Belt</a></li>
+          <li><a class="link" href="/greenbelt/">Green Belt</a></li>
+		  <li><a class="link" href="/bluebelt/">Blue Belt</a></li>
+		  <li><a class="link" href="/purplebelt/">Purple Belt</a></li>
+		  <li><a class="link" href="/brownbelt/">Brown Belt</a></li>
+		  <li><a class="link" href="/redbelt/">Red Belt</a></li>
+		  <li><a class="link" href="/blackbelt/">Black Belt</a></li>
+        </ul>
+      </div>
+    
+  
+  <!-- popups -->
+  
+    <!-- Jab -->
+    <div class="popup popup-white">
+    <div class="block">
+      <h4>White Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
     </div>
-<!--</template>-->
-<script>
-    return {
-        data: function () {
-            return {
-                kcontent: this.$root.kcontent,
-            };
-        }
-    };
-</script>
+    </div>
+    
+    <!-- Trip -->
+    <div class="popup popup-gold">
+    <div class="block">
+      <h4>Gold Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+    
+    <!-- Overhand -->
+    <div class="popup popup-green">
+    <div class="block">
+      <h4>Green Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+    
+    <!-- Round Kick -->
+    <div class="popup popup-blue">
+    <div class="block">
+      <h4>Blue Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+    
+    <!-- Double Leg Takedown -->
+    <div class="popup popup-purple">
+    <div class="block">
+      <h4>Purple Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+    
+    <!-- Rear Naked Choke -->
+    <div class="popup popup-brown">
+    <div class="block">
+      <h4>Brown Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+	  
+	  <!-- Red Belt -->
+    <div class="popup popup-red">
+    <div class="block">
+      <h4>Red Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+	  
+	  <!-- Black Belt -->
+    <div class="popup popup-black">
+    <div class="block">
+      <h4>Black Belt</h4><hr>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <!-- Close Popup -->
+      <p><a class="link popup-close" href="#">Close</a></p>
+    </div>
+    </div>
+  
+  </div>  
+</div>
+
