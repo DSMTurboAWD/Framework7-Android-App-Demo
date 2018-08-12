@@ -235,6 +235,7 @@ p {
   border-radius: 5px;
 }
 
+
 #contact-form {
     margin-left: 10%;
     margin-right: 10%;
@@ -245,3 +246,28 @@ p {
     font-weight: bold;
     font-size: 12pt;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
