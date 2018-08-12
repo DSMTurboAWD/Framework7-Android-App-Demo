@@ -28,6 +28,10 @@ routes = [
     path: '/my-list/',
     url: './pages/my-list.html',
   },
+  {
+    path: '/login/',
+    url: './pages/login.html',
+  },
   
   /* The following pages were for levels based on belt*/
 
@@ -151,4 +155,3 @@ routes = [
     url: './pages/404.html',
   },
 ];
-    path: '/belt-levels/',
