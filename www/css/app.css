@@ -227,5 +227,9 @@ h4 {
 
 p {
 	font-size: 14px;
+    border-radius: 10px;
 }
-  border-radius: 10px;
+
+.login-container {
+  background-color: snow;
+}
