@@ -1,4 +1,4 @@
-# Repo for CSC 410 Group 2 #
+# Repo for Framework 7 Android App Demo #
 
 This is a simply Framework 7 / Cordova based cross platform android app.
 
